@@ -9,6 +9,7 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
 
+                group = 'com.github.shyamu53r'
                 groupId = 'com.github.shyamu53r'
                 artifactId = 'toasterlibrary'
                 version = '1.0.0'
